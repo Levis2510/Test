@@ -152,7 +152,8 @@ header .divA .div2 .nav-desktop ul li a {
 @media screen and (max-width: 770px) {
     header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
     }
     .divA {
@@ -189,7 +190,12 @@ header .divA .div2 .nav-desktop ul li a {
     .button {
         width: 120px;
         height: 35px;
-        font-size: 8px;
+        font-size: 7px;
+        position: relative;
+        bottom: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: center
     }
     .dropdown-toggle {
         width: 100%;
@@ -214,7 +220,7 @@ header .divA .div2 .nav-desktop ul li a {
         position: relative;
         bottom: 50px;
         left: 90px;
-        background-color: hwb(57 76% 16% / 0.553);
+        background-color: #007AFF;
         border-radius: 20px;
     }
 }

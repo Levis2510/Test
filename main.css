@@ -75,12 +75,15 @@ img {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f1f1f1;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    top: 0px;
+    left: 0px;
+    height: 100%;
 }
 
 .dropdown-content a {
@@ -163,7 +166,7 @@ header .divA .div2 .nav-desktop ul li a {
     }
     .divA .div1 h1 {
         font-size: 34px;
-        display: none;
+        /* display: none; */
     }
     .divA .div1 img {
         width: 38px;
@@ -202,9 +205,17 @@ header .divA .div2 .nav-desktop ul li a {
         display: inline-block;
     }
     .dropbtn {
-        width: 120px;
-        height: 35px;
-        font-size: 8px
+        width: 40px;
+        height: 30px;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 50px;
+        left: 90px;
+        background-color: hwb(57 76% 16% / 0.553);
+        border-radius: 20px;
     }
 }
 

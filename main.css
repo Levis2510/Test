@@ -148,6 +148,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 @media screen and (max-width: 770px) {
     header {
+        gap: 25px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -224,7 +225,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 @media screen and (max-width: 540px) {
     header {
-        gap: 40px;
+        gap: 10px;
     }
     .divA {
         width: 100%;
@@ -380,6 +381,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 .section2 .div6 {
     width: 100%;
+    max-width: 700px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -412,7 +414,8 @@ header .divA .div2 .nav-desktop ul li a {
     animation: scroll-left 20s linear infinite;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    object-fit: cover;
 }
 
 @keyframes scroll-left {
@@ -571,6 +574,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 .div8 {
     width: 100%;
+    max-width: 1300px;
     height: 100%;
     gap: 20px;
     display: flex;
@@ -1144,6 +1148,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 .section6 .div14 {
     width: 100%;
+    max-width: 1300px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -1217,7 +1222,7 @@ header .divA .div2 .nav-desktop ul li a {
 .section6 .div14 .i14 .ii7 p {
     font-family: Rubik;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 155%;
     letter-spacing: 2%;
     color: #505056;
@@ -1230,7 +1235,7 @@ header .divA .div2 .nav-desktop ul li a {
 }
 
 .section6 .div14 .button2 {
-    width: 290px;
+    width: 250px;
     height: 55px;
     gap: 10px;
     border-radius: 6px;
@@ -1244,7 +1249,7 @@ header .divA .div2 .nav-desktop ul li a {
 }
 
 .section6 .div14 .button2s {
-    width: 290px;
+    width: 250px;
     height: 55px;
     gap: 10px;
     border-radius: 6px;
@@ -1288,7 +1293,7 @@ header .divA .div2 .nav-desktop ul li a {
         font-size: 12px;
     }
     .section6 .div14 .i14 .ii7 p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .section6 .div14 .button2 {
         width: 230px;
@@ -1356,6 +1361,7 @@ header .divA .div2 .nav-desktop ul li a {
     grid-template-columns: repeat( 2, 1fr);
     grid-template-rows: repeat( 3, 1fr);
     width: 100%;
+    max-width: 1300px;
     height: 100%;
     gap: 23.41px;
     border-radius: 4px;

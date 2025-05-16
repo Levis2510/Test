@@ -1148,7 +1148,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 .section6 .div14 {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -1160,7 +1160,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 .section6 .div14 .i14 {
     width: 100%;
-    max-width: 300px;
+    max-width: 270px;
     height: 100%;
     gap: 10px;
     border-radius: 6px;
@@ -1235,8 +1235,8 @@ header .divA .div2 .nav-desktop ul li a {
 }
 
 .section6 .div14 .button2 {
-    width: 250px;
-    height: 55px;
+    width: 230px;
+    height: 40px;
     gap: 10px;
     border-radius: 6px;
     border: 1px solid #007AFF;
@@ -1249,8 +1249,8 @@ header .divA .div2 .nav-desktop ul li a {
 }
 
 .section6 .div14 .button2s {
-    width: 250px;
-    height: 55px;
+    width: 230px;
+    height: 40px;
     gap: 10px;
     border-radius: 6px;
     border: 1px solid #007AFF;
@@ -1296,13 +1296,13 @@ header .divA .div2 .nav-desktop ul li a {
         font-size: 10px;
     }
     .section6 .div14 .button2 {
-        width: 230px;
+        width: 200px;
         height: 30px;
         padding: 20px;
         font-size: 12px;
     }
     .section6 .div14 .button2s {
-        width: 230px;
+        width: 200px;
         height: 30px;
         padding: 20px;
         font-size: 12px;

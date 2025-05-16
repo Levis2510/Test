@@ -397,7 +397,8 @@ header .divA .div2 .nav-desktop ul li a {
 .section2 .slider {
     display: flex;
     width: calc(200px * 8);
-    animation: scroll-left 30s linear infinite;
+    animation: scroll-left 20s linear infinite;
+    animation-duration: 4s;
 }
 
 .section2 .div6 .slider .i1 {

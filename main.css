@@ -383,7 +383,7 @@ header .divA .div2 .nav-desktop ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
     gap: 100px;
     padding: 10px 0;
     border: 1px solid rgba(0, 0, 0, .15);
@@ -398,7 +398,8 @@ header .divA .div2 .nav-desktop ul li a {
     display: flex;
     width: calc(200px * 8);
     animation: scroll-left 20s linear infinite;
-    animation-duration: 4s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
 
 .section2 .div6 .slider .i1 {

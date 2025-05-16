@@ -657,6 +657,8 @@ header .divA .div2 .nav-desktop ul li a {
     }
     .section3 .div8 {
         width: 80%;
+        display: flex;
+        flex-direction: column;
     }
     .section3 .div8 .i5 {
         width: 310px;
@@ -686,11 +688,12 @@ header .divA .div2 .nav-desktop ul li a {
     }
     .section3 .div8 {
         width: 60%;
-        gap: 5px;
+        gap: 10px;
     }
     .section3 .div8 .i5 {
-        width: 280px;
-        height: 180px;
+        padding: 5%;
+        width: 100%;
+        height: 100%;
     }
     .section3 .div8 .i5 img {
         width: 60px;

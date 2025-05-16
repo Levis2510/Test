@@ -115,9 +115,6 @@ button {
     font-family: Rubik;
 }
 
-
-/*a..............................a*/
-
 header .divA .div2 .nav-desktop {
     display: flex;
     justify-content: center;
@@ -159,7 +156,7 @@ header .divA .div2 .nav-desktop ul li a {
     .divA {
         display: block;
         float: none;
-        width: 100%;
+        width: 40%;
         justify-self: center;
     }
     .divA .div1 {
@@ -222,6 +219,18 @@ header .divA .div2 .nav-desktop ul li a {
         left: 90px;
         background-color: #007AFF;
         border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    header {
+        gap: 40px;
+    }
+    .divA {
+        width: 100%;
+    }
+    .button {
+        width: 100px;
     }
 }
 
@@ -371,8 +380,8 @@ header .divA .div2 .nav-desktop ul li a {
 
 .section2 .div6 {
     width: 100%;
-    height: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     gap: 100px;
@@ -387,13 +396,13 @@ header .divA .div2 .nav-desktop ul li a {
 }
 
 .section2 .div6 .i1 {
-    width: auto;
+    width: 100%;
     height: 100%;
     margin: 0;
     line-height: 50px;
     text-align: center;
     transform: translateX(100%);
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-left 30s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -401,27 +410,27 @@ header .divA .div2 .nav-desktop ul li a {
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-900%);
     }
 }
 
-.section2 .div6 .i1 .F1 {
-    width: 200px;
+.section2 .div6 .i1 .img1 {
+    width: 165px;
     height: 51px;
 }
 
-.section2 .div6 .i1 .F2 {
+.section2 .div6 .i1 .img2 {
     width: 60px;
     height: 40px;
 }
 
-.section2 .div6 .i1 .F3 {
+.section2 .div6 .i1 .img3 {
     width: 67px;
     height: 75px;
 }
 
-.section2 .div6 .i1 .F4 {
-    width: 200px;
+.section2 .div6 .i1 .img4 {
+    width: 165px;
     height: 51px;
 }
 
@@ -435,37 +444,65 @@ header .divA .div2 .nav-desktop ul li a {
     }
     .section2 .div6 {
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 20px;
+        flex-direction: row;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        gap: 0px;
         padding: 10px;
         justify-content: center;
-        width: 50%;
+        width: 100%;
+        animation: scroll 15s linear infinite;
+    }
+    .section2 .div6 .i1 {
+        width: 200px;
+    }
+    .section2 .div6 .i1 .img1 {
+        width: 140px;
+        height: 40px;
+    }
+    .section2 .div6 .i1 .img2 {
+        width: 50px;
+        height: 30px;
+    }
+    .section2 .div6 .i1 .img3 {
+        width: 50px;
+        height: 55px;
+    }
+    .section2 .div6 .i1 .img4 {
+        width: 140px;
+        height: 40px;
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 540px) {
     .section2 .div5 h1 {
         font-size: 10px;
     }
-    .section2 .div6 .i1 .F1 {
-        width: 100px;
-        height: 50px;
+    .section2 .div6 {
+        display: flex;
+        width: calc(70px * 6);
+        gap: 20px;
+        animation: scroll 15s linear infinite;
     }
-    .section2 .div6 .i1 .F2 {
-        width: 60px;
-        height: 30px;
+    .section2 .div6 .i1 {
+        width: 100%;
     }
-    .section2 .div6 .i3 {
-        height: 50px;
+    .section2 .div6 .i1 .img1 {
+        width: 80px;
+        height: 25px;
     }
-    .section2 .div6 .i1 .F3 {
-        width: 45px;
-        height: 55px;
+    .section2 .div6 .i1 .img2 {
+        width: 40px;
+        height: 20px;
     }
-    .section2 .div6 .i1 .F4 {
-        width: 100px;
-        height: 50px;
+    .section2 .div6 .i1 .img3 {
+        width: 30px;
+        height: 40px;
+    }
+    .section2 .div6 .i1 .img4 {
+        width: 80px;
+        height: 25px;
     }
 }
 
@@ -1216,7 +1253,7 @@ header .divA .div2 .nav-desktop ul li a {
         gap: 18px;
     }
     .section6 .div13 h1 {
-        font-size: 36px;
+        font-size: 28px;
     }
     .section6 .div13 ul {
         font-size: 12px;
@@ -1401,7 +1438,7 @@ header .divA .div2 .nav-desktop ul li a {
         gap: 12px;
     }
     .section7 .div15 h1 {
-        font-size: 38px;
+        font-size: 28px;
     }
     .section7 .div15 ul {
         font-size: 12px;
@@ -1576,7 +1613,7 @@ header .divA .div2 .nav-desktop ul li a {
         gap: 24px;
     }
     .section8 .div16 .i16 h1 {
-        font-size: 38px;
+        font-size: 30px;
     }
     .section8 .div16 .i16 ul {
         font-size: 15px;

@@ -381,7 +381,7 @@ header .divA .div2 .nav-desktop ul li a {
 
 .section2 .div6 {
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -464,13 +464,19 @@ header .divA .div2 .nav-desktop ul li a {
         gap: 0px;
         padding: 10px;
         justify-content: center;
-        width: 100%;
-        animation: scroll 15s linear infinite;
+        width: 80%;
+        animation: scroll 30s linear infinite;
+    }
+    .section2 .slider {
+        width: calc(200px * 8);
+        animation: scroll-left 30s linear infinite;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
     .section2 .div6 .slider .i1 {
         width: 200px;
         margin: 0 40px;
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 30s linear infinite;
     }
     .section2 .div6 .slider .i1 .img1 {
         width: 140px;
@@ -496,10 +502,13 @@ header .divA .div2 .nav-desktop ul li a {
     }
     .section2 .div6 {
         display: flex;
-        max-width: 100%;
+        max-width: 80%;
         width: calc(70px * 8);
         gap: 20px;
         animation: scroll 15s linear infinite;
+    }
+    .section2 .slider {
+        animation-duration: 5s;
     }
     .section2 .div6 .slider .i1 {
         width: 100%;
@@ -694,6 +703,11 @@ header .divA .div2 .nav-desktop ul li a {
         padding: 5%;
         width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
     }
     .section3 .div8 .i5 img {
         width: 60px;
@@ -701,6 +715,7 @@ header .divA .div2 .nav-desktop ul li a {
     }
     .section3 .div8 .i5 h1 {
         font-size: 15px;
+        padding: 0;
     }
     .section3 .div8 .i5 ul {
         font-size: 10px;
